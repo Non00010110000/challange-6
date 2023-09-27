@@ -1,0 +1,130 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;0,800;1,500&family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@1,500&family=Roboto&family=Roboto+Mono&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0d1a2d;
+    max-width: 1440px;
+    max-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Outfit', sans-serif;
+}
+
+.main{
+    width: 350px;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: #0c1729 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+h4{
+    text-align: center;
+align-self: flex-start;
+margin-left: 25px;
+color: #fff;
+}
+.details{
+    color: #8b9fc0;
+    font-size: 16px;
+    margin-left: 25px;
+    font-weight: 100;
+}
+.svg-1{
+    color: #00fff8;
+    text-align: center;
+}
+.ethirium-svg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.svg-2{
+    text-align: center;
+    color: #8b9fc0;
+}
+svg{
+    text-align: center;
+    align-items: center;
+}
+hr{
+    width: 85%;
+    font-size: 2px;
+    opacity: 0.3;
+}
+.final{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+    margin-left: 45px;
+}
+.img-final{
+    border: 50% solid #fff;
+}
+.final-span{
+    color: #8b9fc0;
+}
+i{
+    color: #fff;
+
+}
+i:hover{
+    color: #00fff8;
+    cursor: pointer;
+}
+.img:hover{
+    cursor: pointer;
+    filter: brightness(300%);
+}
+h4:hover{
+    color: #00fff8;
+    cursor: pointer;
+}
+
+
+/* mobile */
+
+
+
+@media (max-width:375px){
+    body{
+        min-height: fit-content;
+    }
+    .main{
+        width: auto;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        width: 90%;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+}
